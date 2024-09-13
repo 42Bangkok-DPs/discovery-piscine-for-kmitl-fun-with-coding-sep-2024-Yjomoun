@@ -1,0 +1,52 @@
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    overflow: hidden; 
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 100%;
+}
+
+.div1 {
+    background-color: rgb(255, 149, 0);
+    float: left;
+    
+}
+.div2 {
+    background-color: rgb(43, 1, 255);
+    float: right;
+    
+}
+
+.div1, .div2 {
+    width: 50%;
+    height: 100%;
+    display: flex; 
+    align-items: center; 
+    justify-content: left; 
+    box-sizing: border-box; 
+    color:white;
+    font-size: 10vw;
+    border: 1px solid black;
+    border-collapse: collapse;
+    
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="div1">Orange</div>
+        <div class="div2">Blue</div>
+    </div>
+</body>
+</html>
